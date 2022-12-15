@@ -1,0 +1,20 @@
+.center {
+    text-align: center;
+    color:grey;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+p {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+div>p:nth-child(odd) {
+    background-color: rgb(112, 117, 117);
+}
+div>p:nth-child(even) {
+    background-color: rgb(90, 91, 92);
+}

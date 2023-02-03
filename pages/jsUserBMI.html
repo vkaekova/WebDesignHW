@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS basic syntax</title>
+</head>
+<body>
+    <form class="test">
+        <div class="form-row">
+            <label for="uHeight">Your height in meters:</label>
+            <input type="number" name="uHeight" id="uHeight">
+        </div>
+        <div class="form-row">
+            <label for="uWeight">Your weight in kg:</label>
+            <input type="number" name="uWeight" id="uWeight">
+        </div>
+        <button type="button" onclick=checkUserBMI();>Go</button>
+    </form>
+    <div id="output"></div>
+    <script src="../scripts/jsUserBMI.js"></script>
+</body>
+</html>
